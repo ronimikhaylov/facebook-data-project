@@ -15,27 +15,27 @@ These commands will be read from an input file and processed one at a time. All 
 
 • Q 'name' 'name' – Check whether the two users are friends and display an appropriate message.
 
-For example:a <br />
+For example: <br />
 
-Inputa <br />
-A Suea <br />
-A Johna <br />
-A Ellena <br />
-A Mikea <br />
-
-'call toString method on the facebook object' <br />
-F John Suea <br />
-F Ellen Suea <br />
-F Mike Suea <br />
-F Mike Johna <br />
+Input <br />
+A Sue<br />
+A John <br />
+A Ellen <br />
+A Mike <br />
 
 'call toString method on the facebook object' <br />
-U Sue Johna <br />
+F John Sue <br />
+F Ellen Sue <br />
+F Mike Sue <br />
+F Mike John<br />
 
 'call toString method on the facebook object' <br />
-Q Ellen Mikea <br />
-Q Ellen Suea <br />
-L Sue L Mikea <br />
+U Sue John <br />
+
+'call toString method on the facebook object' <br />
+Q Ellen Mike <br />
+Q Ellen Sue <br />
+L Sue L Mike <br />
 
 Output <br />
 Sue is friends with: <br />
