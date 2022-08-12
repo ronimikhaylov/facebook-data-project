@@ -15,43 +15,42 @@ These commands will be read from an input file and processed one at a time. All 
 
 • Q 'name' 'name' – Check whether the two users are friends and display an appropriate message.
 
-For example:
+For example:a <br />
 
-Input
+Inputa <br />
+A Suea <br />
+A Johna <br />
+A Ellena <br />
+A Mikea <br />
 
-A Sue
+'call toString method on the facebook object' <br />
+F John Suea <br />
+F Ellen Suea <br />
+F Mike Suea <br />
+F Mike Johna <br />
 
-A John
+'call toString method on the facebook object' <br />
+U Sue Johna <br />
 
-A Ellen
+'call toString method on the facebook object' <br />
+Q Ellen Mikea <br />
+Q Ellen Suea <br />
+L Sue L Mikea <br />
 
-A Mike
-
-'call toString method on the facebook object'
-F John Sue
-F Ellen Sue
-F Mike Sue
-F Mike John
-'call toString method on the facebook object'
-U Sue John
-'call toString method on the facebook object'
-Q Ellen Mike
-Q Ellen Sue
-L Sue L Mike
-Output
-Sue is friends with:
-John is friends with:
-Ellen is friends with:
-Mike is friends with:
-Sue is friends with: Mike Ellen John 
-John is friends with: Mike Sue 
-Ellen is friends with: Sue
-Mike is friends with: John Sue
-Sue is friends with: Mike Ellen
-John is friends with: Mike
-Ellen is friends with: Sue
-Mike is friends with: John Sue
-Ellen and Mike are not friends
-Ellen and Sue are friends
-Sue is friends with: Mike Ellen 
-Mike is friends with: John Sue
+Output <br />
+Sue is friends with: <br />
+John is friends with: <br />
+Ellen is friends with: <br />
+Mike is friends with:<br />
+Sue is friends with: Mike Ellen John <br />
+John is friends with: Mike Sue  <br />
+Ellen is friends with: Sue <br />
+Mike is friends with: John Sue <br />
+Sue is friends with: Mike Ellen <br />
+John is friends with: Mike <br />
+Ellen is friends with: Sue <br />
+Mike is friends with: John Sue <br />
+Ellen and Mike are not friends <br />
+Ellen and Sue are friends <br />
+Sue is friends with: Mike Ellen  <br />
+Mike is friends with: John Sue <br />
