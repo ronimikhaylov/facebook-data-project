@@ -1,7 +1,8 @@
 # facebook-data-project
-Project that reads data from text file and displays what the data is trying to show
-In this assignment, I  use arrays and linked lists to implement a simple version of Facebook.
-This program will read a sequence of commands to create users, record that two users are friends, etc.
+Using a linked list to 
+In this assignment, I  use an array of users in a facebook object and each element has a user object which contains a linked list of the users friends.  </br>
+
+Using these data structures, this program will read a sequence of commands to create users, record that two users are friends, etc.
 These commands will be read from an input file and processed one at a time. All output will be placed in the console.
 
 
