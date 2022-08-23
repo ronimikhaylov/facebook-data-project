@@ -1,5 +1,5 @@
 # facebook-data-project
-Using a linked list to 
+
 In this assignment, I  use an array of users in a facebook object and each element has a user object which contains a linked list of the users friends.  </br>
 
 Using these data structures, this program will read a sequence of commands to create users, record that two users are friends, etc.
